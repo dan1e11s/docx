@@ -1,7 +1,8 @@
 import { useState } from 'react';
 
-const urlAddReplacement = 'http://localhost:3003/add-replacement';
-const urlApplyReplacements = 'http://localhost:3003/apply-replacements';
+const urlAddReplacement = 'https://docx-server.onrender.com/add-replacement';
+const urlApplyReplacements =
+  'https://docx-server.onrender.com/apply-replacements';
 
 function App() {
   const [file, setFile] = useState(null);
